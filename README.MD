@@ -15,8 +15,8 @@ Descripción breve del proyecto.
 
 ## Capturas de Pantalla
 
-![Ejemplo 1](/screenshots/screenshot1.png)
-![Ejemplo 2](/screenshots/screenshot2.png)
+![]()
+![]()
 
 ## Instalación
 
