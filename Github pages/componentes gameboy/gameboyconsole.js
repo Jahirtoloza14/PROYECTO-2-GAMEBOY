@@ -14,7 +14,7 @@ class GameboyConsole extends HTMLElement {
         --height: 625px;
       }
 
-      .container {
+      .container1 {
         --gameboy-bottom-depth: linear-gradient(transparent 97.75%, #0004 98.5%, #0005 99%);
 
         width: var(--width);
@@ -194,7 +194,7 @@ class GameboyConsole extends HTMLElement {
 
      this.shadowRoot.innerHTML = /* html */`
     <style>${GameboyConsole.styles}</style>
-    <div class="container">
+    <div class="container1">
     
       <gameboy-top></gameboy-top>
       <div class="screen-container">  

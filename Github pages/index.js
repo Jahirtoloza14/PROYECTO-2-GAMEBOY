@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
-  // ...
+  
 
   const gameBoyContainer = document.querySelector('.gameboy-color');
 
-  // Crear un elemento de título
+ 
   const titleElement = document.createElement('h1');
   titleElement.textContent = 'GAME BOY';
-  titleElement.style.textAlign = 'center';  // Alinea el texto al centro si es necesario
+  titleElement.style.textAlign = 'center';  
 
-  // Agregar el título al contenedor gameboy-color
+ 
   gameBoyContainer.appendChild(titleElement);
 
   // ...
@@ -139,5 +139,4 @@ var $gameBoyContainer = document.querySelector('.gameboy-color');
 
 
         });
-        
         

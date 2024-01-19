@@ -1,38 +1,35 @@
 
+body.--bs-body-bg-color {
+  background: #222;
+}
 
-  
-  body {
-    margin: 0;
-    background: rgb(71, 71, 145);
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-    margin-top: 4em;
-    background: rgb(71, 71, 145);
-    
+.container {
+  display: flex ;
+  justify-content: center;
+  margin-top: 4em;
+ 
+ 
 }
 
 :root {
-    --width: 250px;
-    --height: 180px;
-  }
- .imagenes {
-  background: #9ca04c;
-  width: var(--width);;
-  height: var(--height);
+  --width: 250px;
+  --height: 180px;
+}
+.imagenes {
+background: #9ca04c;
+width: var(--width);;
+height: var(--height);
 
-  box-shadow:5px 5px 10px #0008 inset,-2px -1px 10px #0005 inset,0 0 4px 3px #aaa4;
+box-shadow:5px 5px 10px #0008 inset,-2px -1px 10px #0005 inset,0 0 4px 3px #aaa4;
 
- position:absolute;
-  justify-content: center;
-  align-items: flex-start;
-  left: 15.3%;
-  margin:29%;
-  margin-top: -27.9%;
- 
-  background-size: cover;
-  background-position: center;
-  display: none;
-  }
+position:absolute;
+justify-content: center;
+align-items: flex-start;
+left: 15.3%;
+margin:29%;
+margin-top: -27.9%;
+
+background-size: cover;
+background-position: center;
+display: none;
+}
