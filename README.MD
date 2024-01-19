@@ -1,4 +1,5 @@
-# PROYECTO 2 GAMEBOY</span>
+
+<span style="color:red; font-size:28px;">PROYECTO 2 GAMEBOY</span>
 
 En este segundo proyecto, nos proponemos recrear la interfaz frontal de una consola de videojuegos, ya sea portátil o de sobremesa, sin limitaciones respecto a la marca o la época. Nuestro objetivo principal es aplicar los conocimientos adquiridos en JavaScript y DOM/BOM para conferir dinamismo a la interfaz de la consola.
 
@@ -18,22 +19,27 @@ Este proyecto se presenta como una oportunidad para aplicar conceptos avanzados 
 - [Contacto](#contacto)
 
 ## Capturas de Pantalla
-
+inicio
 ![inicio](./imagenes/pantallazo1.png)
+Pulsando el Boton power switch
 ![Pulsando el Boton power switch](./imagenes/pantallazo3.png)
+Pulsando el Boton azul
 ![Pulsando el Boton azul](./imagenes/pantallazo2.png)
+Pulsando el Boton gris
 ![Pulsando el Boton gris](./imagenes/pantallazo4.png)
+Pulsando el Boton verde
 ![Pulsando el Boton verde](./imagenes/pantallazo5.png)
+Pulsando el Boton rojo te lleva la imagen inicial
 ![Pulsando el Boton rojo te lleva la imagen inicial](./imagenes/pantallazo2.png)
 
 ## Instalación
 No se requiere una instalación especial para utilizar la Game Boy Web Console en tu sitio web. Solo necesitas incluir los archivos JavaScript y CSS en tu proyecto.
-...
+
 
 ## Uso
 Para utilizar la consola Game Boy web, simplemente incorpora el componente principal `<gameboy-console></gameboy-console>` en tu archivo HTML. Además, puedes agregar otros componentes específicos según tus necesidades.
 
-...
+
 
 ## Ejemplos
 ### Uso básico
@@ -50,7 +56,7 @@ Para utilizar la consola Game Boy web, simplemente incorpora el componente princ
     <gameboy-console></gameboy-console>
 </body>
 </html>
-...
+
 ```
 ### Agregar botones y pantalla 
 ```html
@@ -72,7 +78,7 @@ Para utilizar la consola Game Boy web, simplemente incorpora el componente princ
 ```
 ## Contribución
 Este proyecto es un ejercicio creativo y de diseño. Siéntete libre de contribuir, hacer sugerencias o realizar mejoras. ¡Diviértete experimentando con la apariencia de la consola Game Boy en la web!
-...
+
 
 ## Desarrollo Local
 Si deseas contribuir o realizar modificaciones locales al proyecto, sigue estos pasos:
