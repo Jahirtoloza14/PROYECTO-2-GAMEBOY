@@ -18,7 +18,7 @@ Este proyecto se presenta como una oportunidad para aplicar conceptos avanzados 
 - [Licencia](#licencia)
 - [Contacto](#contacto)
 
-## Tecnoglogias 💻
+## Tecnologias 💻
 Basándome en el código y las instrucciones proporcionadas, parece que has utilizado las siguientes tecnologías en tu proyecto de Game Boy Web Console:
 
 1. HTML: Para la estructura y contenido de tu página web.
