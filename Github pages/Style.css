@@ -6,7 +6,7 @@ body.--bs-body-bg-color {
 .container {
   display: flex ;
   justify-content: center;
-  margin-top: 4em;
+  margin-top: 1em;
  
  
 }
@@ -14,7 +14,12 @@ body.--bs-body-bg-color {
 :root {
   --width: 250px;
   --height: 180px;
+  
 }
+
+
+
+
 .imagenes {
 background: #9ca04c;
 width: var(--width);;
@@ -25,11 +30,44 @@ box-shadow:5px 5px 10px #0008 inset,-2px -1px 10px #0005 inset,0 0 4px 3px #aaa4
 position:absolute;
 justify-content: center;
 align-items: flex-start;
-left: 15.3%;
+left: 12.9%;
 margin:29%;
-margin-top: -27.9%;
+margin-top: -39.8%;
 
 background-size: cover;
 background-position: center;
 display: none;
+}
+
+
+
+
+@media only screen and (max-width: 998px) {
+  .imagenes {
+    background: #9ca04c;
+    width: var(--width);;
+    height: var(--height);
+    
+    box-shadow:5px 5px 10px #0008 inset,-2px -1px 10px #0005 inset,0 0 4px 3px #aaa4;
+    
+    position:absolute;
+    justify-content: center;
+    align-items: flex-start;
+    left: 10%;
+    margin:29%;
+    margin-top: -53.6%;
+    
+    background-size: cover;
+    background-position: center;
+    display: none;
+    }
+
+    .container {
+      display: flex ;
+      justify-content: center;
+      margin-top: 18em;
+      
+     
+    } 
+   
 }

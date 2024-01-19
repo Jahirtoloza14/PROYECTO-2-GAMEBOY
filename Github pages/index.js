@@ -7,7 +7,16 @@ document.addEventListener('DOMContentLoaded', function () {
   const titleElement = document.createElement('h1');
   titleElement.textContent = 'GAME BOY';
   titleElement.style.textAlign = 'center';  
-
+  titleElement.style.borderRadius= "12px";
+  titleElement.style.fontFamily= "Lato";
+  titleElement.style.color= "#332C60";
+  titleElement.style.display="absolute";
+  titleElement.style.flexDirection= "column";
+  titleElement.style.justyfyContent= "space-between";
+  titleElement.style.position="relative";
+  titleElement.style.top="-27%";
+  titleElement.style.left="%";
+  
  
   gameBoyContainer.appendChild(titleElement);
 
@@ -24,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
 var $gameBoyContainer = document.querySelector('.gameboy-color');
         $gameBoyContainer.style.position="relative";
         
-        $gameBoyContainer.style.width= "280px";
+        $gameBoyContainer.style.width= "290px";
         $gameBoyContainer.style.height= "225px";
         $gameBoyContainer.style.backgroundColor= "#d3ccd3";
         $gameBoyContainer.style.borderRadius= "75px 75px 75px 75px";
@@ -34,7 +43,7 @@ var $gameBoyContainer = document.querySelector('.gameboy-color');
         $gameBoyContainer.style.justyfyContent= "space-between";
         $gameBoyContainer.style.position="absolute";
         $gameBoyContainer.style.top="7%";
-        $gameBoyContainer.style.left="20%";
+        $gameBoyContainer.style.left="10%";
     
 
 

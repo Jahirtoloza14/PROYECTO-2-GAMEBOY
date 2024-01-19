@@ -23,7 +23,7 @@ Este proyecto se presenta como una oportunidad para aplicar conceptos avanzados 
 ![]()
 
 ## Instalación
-
+No se requiere una instalación especial para utilizar la Game Boy Web Console en tu sitio web. Solo necesitas incluir los archivos JavaScript y CSS en tu proyecto.
 ...
 
 ## Uso
