@@ -1,3 +1,26 @@
+document.addEventListener('DOMContentLoaded', function () {
+  // ...
+
+  const gameBoyContainer = document.querySelector('.gameboy-color');
+
+  // Crear un elemento de título
+  const titleElement = document.createElement('h1');
+  titleElement.textContent = 'GAME BOY';
+  titleElement.style.textAlign = 'center';  // Alinea el texto al centro si es necesario
+
+  // Agregar el título al contenedor gameboy-color
+  gameBoyContainer.appendChild(titleElement);
+
+  // ...
+});
+
+
+
+
+
+
+
+
 var $gameBoyContainer = document.querySelector('.gameboy-color');
         $gameBoyContainer.style.position="relative";
         
@@ -73,7 +96,7 @@ var $gameBoyContainer = document.querySelector('.gameboy-color');
         
     
 
-        // Función para manejar el clic en el botón verde
+ 
         document.addEventListener('DOMContentLoaded', function () {
             const imagenesElement = document.querySelector('.imagenes');
             const azulButton = document.querySelector('.azul');
@@ -87,19 +110,18 @@ var $gameBoyContainer = document.querySelector('.gameboy-color');
               }
           
             azulButton.addEventListener('click', function () {
-              mostrarImagen('../imagenes/imgen1.png'); // Reemplaza 'url_imagen_azul.jpg' con la URL de tu imagen azul
-            });
+              mostrarImagen('../imagenes/imgen1.png');
           
             grisButton.addEventListener('click', function () {
-              mostrarImagen('../imagenes/imagen2.png'); // Reemplaza 'url_imagen_gris.jpg' con la URL de tu imagen gris
+              mostrarImagen('../imagenes/imagen2.png'); 
             });
           
             verdeButton.addEventListener('click', function () {
-              mostrarImagen('../imagenes/imagen3.png'); // Reemplaza 'url_imagen_verde.jpg' con la URL de tu imagen verde
+              mostrarImagen('../imagenes/imagen3.png'); 
             });
           
             rojoButton.addEventListener('click', function () {
-              mostrarImagen('../imagenes/imgen1.png'); // Reemplaza 'url_imagen_rojo.jpg' con la URL de tu imagen roja
+              mostrarImagen('../imagenes/imgen1.png'); 
             });
           
             function mostrarImagen(urlImagen) {
@@ -110,7 +132,12 @@ var $gameBoyContainer = document.querySelector('.gameboy-color');
             function mostrarImagen(urlImagen) {
                 if (imagenesElement) {
                   imagenesElement.style.backgroundImage = `url('${urlImagen}')`;
-                  imagenesElement.style.display = 'block'; // Mostrar la clase .imagenes al hacer clic en un botón
+                  imagenesElement.style.display = 'block'; 
                 }
               }
           });
+
+
+        });
+        
+        

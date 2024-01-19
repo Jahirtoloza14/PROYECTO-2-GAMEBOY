@@ -2,6 +2,16 @@ class GameboyScreen extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
+    this.audioOn = this.createAudioElement('../audio/nintendo-game-boy-startup.mp3');
+    this.audioOff = this.createAudioElement('../audio/nintendo-game-boy-startup.mp3');
+  }
+
+  createAudioElement(src) {
+    const audioElement = document.createElement('audio');
+    audioElement.src = src;
+    audioElement.style.display = 'none';   
+    this.shadowRoot.appendChild(audioElement);
+    return audioElement;
   }
 
   static get styles() {
@@ -172,6 +182,13 @@ class GameboyScreen extends HTMLElement {
       }
 
 
+      if (powerSwitchButton.classList.contains('on')) {
+        this.audioOn.play();
+      } else {
+        this.audioOff.play();
+      }
+
+
       setTimeout(() => {
         this.toggleAnimation();
         
@@ -209,4 +226,10 @@ const animacionElement = this.shadowRoot.querySelector('.animacion');
 
 }
 
+
+
+
+
 customElements.define("gameboy-screen", GameboyScreen);
+
+
