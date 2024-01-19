@@ -192,10 +192,10 @@ class GameboyScreen extends HTMLElement {
       setTimeout(() => {
         this.toggleAnimation();
         
-      }, 3000);
+      }, 5000);
       setTimeout(() => {
       this.toggleAnimation2();
-    }, 3000);
+    }, 5000);
     });
 
     
