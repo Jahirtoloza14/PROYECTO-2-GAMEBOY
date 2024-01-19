@@ -19,8 +19,12 @@ Este proyecto se presenta como una oportunidad para aplicar conceptos avanzados 
 
 ## Capturas de Pantalla
 
-![]()
-![]()
+![inicio](./imagenes/pantallazo1.png)
+![Pulsando el Boton power switch](./imagenes/pantallazo3.png)
+![Pulsando el Boton azul](./imagenes/pantallazo2.png)
+![Pulsando el Boton gris](./imagenes/pantallazo4.png)
+![Pulsando el Boton verde](./imagenes/pantallazo5.png)
+![Pulsando el Boton rojo te lleva la imagen inicial](./imagenes/pantallazo2.png)
 
 ## Instalación
 No se requiere una instalación especial para utilizar la Game Boy Web Console en tu sitio web. Solo necesitas incluir los archivos JavaScript y CSS en tu proyecto.
