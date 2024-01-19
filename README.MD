@@ -1,5 +1,5 @@
 
-<span style="color:red; font-size:28px;">PROYECTO 2 GAMEBOY</span>
+#<span style="color:red; font-size:28px;">PROYECTO 2 GAMEBOY</span>
 
 En este segundo proyecto, nos proponemos recrear la interfaz frontal de una consola de videojuegos, ya sea portátil o de sobremesa, sin limitaciones respecto a la marca o la época. Nuestro objetivo principal es aplicar los conocimientos adquiridos en JavaScript y DOM/BOM para conferir dinamismo a la interfaz de la consola.
 
