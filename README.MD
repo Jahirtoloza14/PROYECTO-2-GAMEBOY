@@ -107,6 +107,6 @@ Si deseas contribuir o realizar modificaciones locales al proyecto, sigue estos 
 
 Este proyecto está bajo la licencia MIT. Ver el archivo ![Bower License](https://img.shields.io/bower/l/bootstrap)  para más detalles.
 
-## Contacto 📞
+
 
 
