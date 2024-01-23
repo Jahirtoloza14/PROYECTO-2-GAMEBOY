@@ -166,7 +166,7 @@ class GameboyScreen extends HTMLElement {
       </div>
       `;
   }
-
+//** codigos de mi autoria  */
   setupEventListeners() {
     const powerSwitchButton = this.shadowRoot.querySelector('.power-switch');
     const batteryContainer = this.shadowRoot.querySelector('.bottom .battery');

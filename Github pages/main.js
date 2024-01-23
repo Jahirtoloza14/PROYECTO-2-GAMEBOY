@@ -1,3 +1,7 @@
+
+//** codigos de mi autoria  */
+
+
 document.addEventListener('DOMContentLoaded', function () {
   
 

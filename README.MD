@@ -1,9 +1,7 @@
 
-<<<<<<< HEAD
-#PROYECTO 2 GAMEBOY 🎮
-=======
+
 # PROYECTO 2 GAMEBOY 🎮
->>>>>>> 0503d7b690c34abd9ba3707925f2b4b96fd6f9a6
+
 
 En este segundo proyecto, nos proponemos recrear la interfaz frontal de una consola de videojuegos, ya sea portátil o de sobremesa, sin limitaciones respecto a la marca o la época. Nuestro objetivo principal es aplicar los conocimientos adquiridos en JavaScript y DOM/BOM para conferir dinamismo a la interfaz de la consola.
 
@@ -24,12 +22,12 @@ Este proyecto se presenta como una oportunidad para aplicar conceptos avanzados 
 ##Tecnoglogias 💻
 Basándome en el código y las instrucciones proporcionadas, parece que has utilizado las siguientes tecnologías en tu proyecto de Game Boy Web Console:
 
-<<<<<<< HEAD
-=======
+
+
 ## Tecnologias 💻
 Basándome en el código y las instrucciones proporcionadas, parece que has utilizado las siguientes tecnologías en tu proyecto de Game Boy Web Console:
 
->>>>>>> 0503d7b690c34abd9ba3707925f2b4b96fd6f9a6
+
 1. HTML: Para la estructura y contenido de tu página web.
 
 2. CSS: Para el diseño y estilo de tus elementos HTML.
@@ -54,6 +52,8 @@ Pulsando el Boton verde
 ![Pulsando el Boton verde](./imagenes/pantallazo5.png)
 Pulsando el Boton rojo te lleva la imagen inicial
 ![Pulsando el Boton rojo te lleva la imagen inicial](./imagenes/pantallazo2.png)
+RESPONSIVE
+![responsive](./imagenes/Responsive100%.png)
 
 ## Instalación ⚙️
 No se requiere una instalación especial para utilizar la Game Boy Web Console en tu sitio web. Solo necesitas incluir los archivos JavaScript y CSS en tu proyecto.
@@ -113,16 +113,15 @@ Si deseas contribuir o realizar modificaciones locales al proyecto, sigue estos 
 3.Realiza las modificaciones o contribuciones deseadas en los archivos .js y .css. 
 4. Para ver tus cambios localmente, simplemente abre el archivo HTML en un navegador.
 ## Licencia 💳
-<<<<<<< HEAD
 
 Este proyecto está bajo la licencia MIT. Ver el archivo ![Bower License](https://img.shields.io/bower/l/bootstrap)  para más detalles.
 
 ## Contacto 📞
-=======
+
 
 Este proyecto está bajo la licencia MIT. Ver el archivo ![Bower License](https://img.shields.io/bower/l/bootstrap)  para más detalles.
 
 
 
->>>>>>> 0503d7b690c34abd9ba3707925f2b4b96fd6f9a6
+
 
