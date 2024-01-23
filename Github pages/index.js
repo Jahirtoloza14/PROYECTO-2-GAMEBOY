@@ -78,20 +78,20 @@ var $gameBoyContainer = document.querySelector('.gameboy-color');
         $gameBoyContainer.style.width= "8px";
         $gameBoyContainer.style.height= "25px";
         $gameBoyContainer.style.position="relative";
-        $gameBoyContainer.style.top="30%";
+
         $gameBoyContainer.style.borderRadius= "12px";
         $gameBoyContainer.style.boxShadow="0 0 11px #0007, 1px 0 10px 3px #0008 inset";
         $gameBoyContainer.style.display="absolute";
         $gameBoyContainer.style.flexDirection= "column";
         $gameBoyContainer.style.justyfyContent= "space-between";
-        $gameBoyContainer.style.top="46.3%";
+        $gameBoyContainer.style.top="45.1%";
         $gameBoyContainer.style.left="49%";
 
 
         var $gameBoyContainer = document.querySelector('.rojo');
         $gameBoyContainer.style.width= "8px";
         $gameBoyContainer.style.height= "25px";
-        $gameBoyContainer.style.top="35.3%";
+        $gameBoyContainer.style.top="34.3%";
         $gameBoyContainer.style.left="65%";
         $gameBoyContainer.style.borderRadius= "12px";
         $gameBoyContainer.style.boxShadow="0 0 11px #0007, 1px 0 10px 3px #0008 inset";
