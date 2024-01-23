@@ -51,8 +51,8 @@ Pulsando el Boton gris
 Pulsando el Boton verde
 ![Pulsando el Boton verde](./imagenes/pantallazo5.png)
 Pulsando el Boton rojo te lleva la imagen inicial
-![Pulsando el Boton rojo te lleva la imagen inicial](./imagenes/pantallazo2.png)
-RESPONSIVE
+![Pulsando el Boton rojo te lleva la imagen inicial](./imagenes/Responsive 100%.png)
+RESPONSIVE 100%
 ![responsive](./imagenes/Responsive100%.png)
 
 ## Instalación ⚙️
