@@ -1,0 +1,639 @@
+
+
+  #body-console {
+
+
+
+    
+
+    width: 395px;
+    height: 625px;
+    background-color: #8b8b8b;
+    background-image:
+      linear-gradient(-31deg, #8b8b8b 0 75px, transparent 80px),
+      linear-gradient(transparent 97.75%, #0004 98.5%, #0005 99%);
+    border-radius: 12px 12px 75px 12px;
+    box-shadow:
+      0 0 10px #0007,
+      1px 0 10px 3px #0008 inset;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  #screen{
+    height: 325px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 25px;
+        border-top: 1px solid #fff8;
+        border-radius: 2% 2% 0% 0% / 0.5% 0.5% 0% 0%;
+  }
+
+  .brand {
+    color: #332C60;
+    padding-top: 4px;
+    text-shadow: 0 0 1px #30205855;
+  }
+
+  .brand .company {
+    font-family: "Pretendo";
+    font-size: 15px;
+    letter-spacing: 0.5px;
+  }
+
+  .brand .product {
+    font-family: "Lato";
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .brand sub {
+    display: inline-block;
+    font-family: "Lato";
+    font-size: 15px;
+    transform: translateY(2px);
+  }
+
+
+
+
+  #controls-container{
+    height: 275px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  }
+
+
+  .controls-container {
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    padding: 0 20px 0 10px;
+    box-sizing: border-box;
+  }
+
+  .controls gameboy-cross {
+    width: 130px;
+    height: 130px;
+  }
+
+  .controls .buttons {
+    width: 140px;
+    height: 68px;
+    background: linear-gradient(10deg, #EFF2F092, #AE9FA699);
+    box-shadow:
+      0 0 4px 2px #ccc,
+      0 20px 4px -2px #6661 inset;
+    border-radius: 40px;
+    transform: translateY(30px) rotate(-25deg);
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  gameboy-speaker {
+    width: 130px;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .option-buttons {
+    width: 130px;
+    height: 55px;
+    display: flex;
+    transform: translateY(30px);
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .bottom .phones {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #eee;
+    border-radius: 15px;
+    padding: 2px 4px;
+    text-shadow: 1px 1px 1px #0003;
+    box-shadow:
+      1px 2px 2px #0005 inset,
+      0px -2px 2px #fffd inset;
+    opacity: 0.8;
+    transform: translate(-2px, 0);
+  }
+
+  .bottom .phones span {
+    filter: brightness(0) invert(0.95);
+  }
+
+  .slot {
+    margin: auto;
+  }
+
+  .slot,
+  .slot::before,
+  .slot::after {
+    width: 5px;
+    height: 10px;
+    background-image: radial-gradient(transparent, #0003);
+  }
+
+  .slot::before,
+  .slot::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    position: absolute;
+  }
+
+  .slot::before {
+    transform: translateX(-8px);
+  }
+
+  .slot::after {
+    transform: translateX(8px);
+  }
+ 
+ 
+  #container1 {
+    background-color: #737488;
+    width: 330px;
+    height: 230px;
+    border-radius: 10px 10px 35px 10px;
+    border: 1px solid #666;
+    border-width: 0 1px 0 1px;
+    box-shadow:
+      0 0 2px #514c65,
+      0 -1px 1px #161118,
+      0 -2px 1px #A0939F,
+      0 -4px 1px #514c65,
+      0 0 2px 2px #9C99AC88 inset,
+      0 -1px 2px 1px #0006 inset;
+     top: -10%; 
+  }
+
+  .top2 {
+    --gameboy-stripe-gradient:
+    linear-gradient(
+      transparent 10px,
+      #7d1a4a 11px 12px,
+      transparent 12px 16px,
+      #35224e 16px 18px,
+      transparent 18px
+    );
+
+    background: var(--gameboy-stripe-gradient);
+    position: relative;
+    height: 26px;
+    margin: 0 15px;
+    top: 0%;
+  }
+
+  .top2 span {
+    padding: 0 8px;
+    background: #767189;
+    position: absolute;
+    right: 40px;
+    top: 8px;
+  }
+
+  .top2 .text {
+    font-size: 9.5px;
+  }
+
+  .bottom {
+    display: flex;
+  }
+
+  .battery {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateY(-20px);
+  }
+
+  .battery .led {
+    width: 10px;
+    height: 10px;
+    background: #4a4748;
+    border-radius: 50%;
+    margin: 6px;
+  }
+
+  .battery .led.on {
+    background: #E11E0A;
+    background-image: linear-gradient(0deg, transparent, #fff2);
+    box-shadow: 0 0 2px 1.5px #d87473;
+  }
+
+  .battery .text {
+    font-size: 8px;
+  }
+
+  .text {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #eee;
+    text-shadow: 0 0 2px #eee9;
+  }
+
+  
+
+
+  .container-screen {
+        
+    background: #9ca04c;
+    width: 250px;
+    height:  180px;
+
+    box-shadow:
+      5px 5px 10px #0008 inset,
+      -2px -1px 10px #0005 inset,
+      0 0 4px 3px #aaa4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin:10%;
+    margin-top: 9%;
+    position: absolute;
+    top: -1600%;
+    
+
+
+  }
+  .power-switch {
+    width: 34px;
+    height: 10px;
+    border-bottom: none;
+    border-width: 1%;
+    border-radius: 30%;
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    background: #fff;
+    background-image:linear-gradient(to bottom, #8b8b8b 0 3px, #ddd 5px 1px);
+    transform: translate(20px, -8px);
+    
+    cursor: pointer;
+  }
+
+
+  .battery {
+   
+    padding: 0%;
+
+    display: flex;
+  
+    flex-direction: column;
+        justify-content: center;
+    
+    transform: translateX(12px);
+    transform: translateY(-1400%);
+  }
+
+  .battery .led {
+    width: 10px;
+    height: 10px;
+    background:  #E11E0A;
+    box-shadow: 0 0 2px 1.5px #d87473;
+    border-radius: 50%;
+    margin: 6px;
+   
+  }
+
+  .battery .led.on {
+    background: #4a4748;
+    background-image: linear-gradient(0deg, transparent, #fff2);
+    
+   
+  }
+
+  .bottom .battery.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .battery .text {
+    font-size: 8px;
+  }
+
+  .text {
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: #eee;
+    text-shadow: 0 0 2px #eee9;
+  }
+
+
+
+
+
+  .power-switch.on {
+    transform: translate(60px, -8px);
+  }
+  
+  .animacion {
+   
+    opacity: 0;
+    transform: translateY(70px);
+    transition: opacity 4.5s ease-in-out, transform 2.5s ease-in-out;
+    transform: translate(65px, -8px);
+  }
+
+  
+
+
+  .animacion.active {
+    opacity: 2;
+
+    transform: translateY(60px);
+  }
+  
+  .animacion2 {
+    
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2.5s ease-in-out, transform 6s ease-in-out ;
+    ;
+  }
+
+  
+
+
+  .animacion2.active {
+    opacity: 1;
+
+    transform: translateY(50px);
+  }
+
+
+
+  .container2 {
+    display: flex;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0px 18px 5px -10px #fff inset;
+    width: 106%;
+    margin-left: -3%;
+    
+  }
+
+  .container2 > div {
+    border-radius: 0 0 2px 2px;
+    border: 1px solid #1111;
+    box-shadow: 0 2px 2px #2f2725aa;
+  
+  }
+
+  .corner {
+    width: 25px;
+  }
+
+  .corner.left {
+    margin-right: 4px;
+  }
+
+  .corner.right {
+    margin-left: 5px;
+    
+  }
+
+  .top {
+    width: 100%;
+  }
+
+  .top span {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #eee;
+    text-shadow:
+      1px 2px 2px #0006;
+    border-radius: 15px;
+    padding: 1px 4px;
+    transform: translate(6px, 1px);
+    box-shadow:
+      0px 1px 2px #0005 inset,
+      0px -1px 2px #fffc inset;
+    opacity: 0.8;
+  }
+
+
+
+
+  .container3 {
+    
+    
+
+    margin: 5px;
+    width: 120px;
+    height: 120px;
+    background:#CFC18D;
+    background-image:
+      radial-gradient(#0007 200%, transparent),
+      linear-gradient(50deg, #E1DEEA 10%, #D9D2D5 90%);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .axis {
+    background:  #060206;
+    border-radius: 2px;
+    box-shadow:
+      0 0 1px 4px #000,
+      0 5px 2px 1px #0008;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .axis::before,
+  .axis::after {
+    content: "";
+    display: block;
+    background: #ddd;
+    filter:
+      drop-shadow(2px 5px 1px red)
+      drop-shadow(-2px -5px 1px blue);
+    width: 6px;
+    height: 6px;
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    position: absolute;
+  }
+
+  .axis.x::before,
+  .axis.x::after {
+    --x: 0;
+    transform: translate(var(--x), 8px) rotate(var(--rotate));
+  }
+
+  .axis.x::before { --x: -15px; --rotate: 90deg; }
+  .axis.x::after { --x: 15px; --rotate: -90deg; }
+
+  .axis.y::before,
+  .axis.y::after {
+    --y: 0;
+    transform: translate(8px, var(--y)) rotate(var(--rotate));
+  }
+
+  .axis.y::before { --y: -15px; --rotate: 180deg; }
+  .axis.y::after { --y: 15px; --rotate: 0; }
+
+  .axis.x::after { right: 0; }
+  .axis.y::after { bottom: 0; }
+
+  .axis.x {
+    width: var(--large);
+    height: var(--short);
+    position: absolute;
+    border: 2px solid #363439;
+    border-top: 3px solid #B7BEC8;
+  }
+
+  .axis.y {
+    width:22px;
+    height: 85px;
+    position: absolute;
+    border: 2px solid #363439;
+    border-top: 3px solid #B7BEC8;
+    flex-direction: column;
+  }
+
+  .axis .group {
+    width: calc(var(--short) + 0px);
+    height: calc(var(--short) - 4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 3px;
+  }
+
+  .axis.y .group {
+    transform: rotate(90deg);
+    padding: 5px 1px;
+  }
+
+  .axis.x .group {
+    padding: 2px 1px;
+  }
+
+  .axis .group .band {
+    width: 5px;
+    height: 100%;
+    background: #181818;
+    border-radius: 5px;
+  }
+
+  .center {
+    width: calc(var(--short) + 5px);
+    height: calc(var(--short) + 5px);
+    background: var(--dark-color);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center .gap {
+    width: 80%;
+    height: 80%;
+    background:
+      conic-gradient(
+        #DDE8F777 0 1%,
+        transparent 10% 35%,
+        #DDE8F7 50%,
+        transparent 65% 90%,
+        #DDE8F777 99%
+      );
+    border-radius: 50%;
+  }
+  .container4 {
+    width: 47px;
+    height: 47px;
+    background-color: #E66E94;
+    border-radius: 50%;
+    background: radial-gradient(26px 26px at 24px 27px, #6F0119 75%, #A20D37 90%,#EF94B2);
+    box-shadow: 1px -4px 0 -3px #7c4b5b inset, -3px 7px 5px -2px #1e0009, 1px -1px 0 2px #53182b;
+  }
+  .container5 {
+    width: 47px;
+    height: 47px;
+    background-color: #E66E94;
+    border-radius: 50%;
+    background: radial-gradient(26px 26px at 24px 27px, #6F0119 75%, #A20D37 90%,#EF94B2);
+    box-shadow: 1px -4px 0 -3px #7c4b5b inset, -3px 7px 5px -2px #1e0009, 1px -1px 0 2px #53182b;
+  }
+
+  .label {
+    font-family: "Pretendo";
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #302058;
+    transform: translate(5%, 350%);
+  }
+  
+
+
+
+
+
+  .container6 {
+   
+    transform: rotate(-29deg);
+    border-radius: 1px;
+    padding: 1px 2;
+  
+}
+
+.button {
+  background: #9e9baf;
+  background-image: linear-gradient(#C0BECA, #7F7584);
+  border-radius: 1px;
+  box-shadow:
+    -2px -2px 5px #0004 inset,
+    2px 2px 5px #fff3 inset,
+    2px 2px 6px #0007,
+    -1px 2px 3px #000d;
+  width: 52px;
+  height:  17px;
+  margin: 1px 6px;
+}
+
+.label2 {
+  font-family: "Pretendo";
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: #302058;
+  transform: translate(-1px, 5px) rotate(-28deg);
+  text-align: center;
+}
