@@ -19,13 +19,12 @@ Este proyecto se presenta como una oportunidad para aplicar conceptos avanzados 
 - [Desarrollo Local](#desarrollo-local)
 - [Licencia](#licencia)
 - [Contacto](#contacto)
-##Tecnoglogias 💻
-Basándome en el código y las instrucciones proporcionadas, parece que has utilizado las siguientes tecnologías en tu proyecto de Game Boy Web Console:
+
 
 
 
 ## Tecnologias 💻
-Basándome en el código y las instrucciones proporcionadas, parece que has utilizado las siguientes tecnologías en tu proyecto de Game Boy Web Console:
+Basándome en el código y las instrucciones proporcionadas, he utilizado las siguientes tecnologías :
 
 
 1. HTML: Para la estructura y contenido de tu página web.
@@ -34,11 +33,11 @@ Basándome en el código y las instrucciones proporcionadas, parece que has util
 
 3. JavaScript (Vanilla): Para la interactividad de la consola Game Boy. Has utilizado JavaScript para manipular el DOM (Document Object Model) y gestionar eventos como clics en botones.
 
-4. GitHub: Para alojar y versionar tu proyecto.
+4. GitHub: Para alojar y versionar el proyecto.
 
-5. Markdown: Para la documentación de tu proyecto en GitHub.
+5. Markdown: Para la documentación en GitHub.
 
-Estas tecnologías son comunes en el desarrollo web y han sido utilizadas para crear una interfaz de consola Game Boy con botones y pantallas que responden a eventos de clic. Además, has aplicado estilos específicos para darle una apariencia visual atractiva.
+Estas tecnologías son comunes en el desarrollo web y han sido utilizadas para crear una interfaz de consola Game Boy con botones y pantallas que responden a eventos de clic. Además, se ha aplicado estilos específicos para darle una apariencia visual atractiva.
 ## Capturas de Pantalla 📸
 inicio
 ![inicio](./imagenes/pantallazo1.png)
