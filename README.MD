@@ -31,7 +31,7 @@ Basándome en el código y las instrucciones proporcionadas, he utilizado las si
 
 2. CSS: Para el diseño y estilo de tus elementos HTML.
 
-3. JavaScript (Vanilla): Para la interactividad de la consola Game Boy. Has utilizado JavaScript para manipular el DOM (Document Object Model) y gestionar eventos como clics en botones.
+3. JavaScript (Vanilla): Para la interactividad de la consola Game Boy. he utilizado JavaScript para manipular el DOM (Document Object Model) y gestionar eventos como clics en botones.
 
 4. GitHub: Para alojar y versionar el proyecto.
 
